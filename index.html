@@ -3,131 +3,101 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Plataforma de Confianza</title>
+<title>Acceso Digital Exclusivo</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 
 <style>
-  body{
-    margin:0;
-    font-family:'Poppins', sans-serif;
-    background:linear-gradient(180deg,#0f172a,#1e1b4b);
-    color:white;
-  }
+body{
+margin:0;
+font-family:'Poppins', sans-serif;
+background:linear-gradient(180deg,#0f172a,#1e1b4b);
+color:white;
+}
 
-  .container{
-    padding:20px;
-    max-width:500px;
-    margin:auto;
-  }
+.container{
+padding:20px;
+max-width:500px;
+margin:auto;
+}
 
-  .card{
-    background:linear-gradient(135deg,#4c1d95,#312e81);
-    padding:25px;
-    border-radius:20px;
-    margin-bottom:20px;
-  }
+.card{
+background:linear-gradient(135deg,#4c1d95,#312e81);
+padding:25px;
+border-radius:20px;
+margin-bottom:20px;
+}
 
-  .light-card{
-    background:#f3f4f6;
-    color:#111827;
-    padding:20px;
-    border-radius:20px;
-    margin-bottom:20px;
-  }
+.light-card{
+background:#f3f4f6;
+color:#111827;
+padding:20px;
+border-radius:20px;
+margin-bottom:20px;
+}
 
-  h1{
-    font-size:26px;
-    margin:0 0 10px 0;
-  }
+h1{font-size:26px;margin:0 0 10px 0;}
+h2{margin-top:0;}
 
-  h2{ margin-top:0; }
-  h3{ margin:0 0 10px 0; }
+.btn{
+display:block;
+background:#22c55e;
+text-align:center;
+padding:15px;
+border-radius:50px;
+color:white;
+font-weight:600;
+text-decoration:none;
+margin:12px 0;
+}
 
-  .btn{
-    display:block;
-    background:#22c55e;
-    text-align:center;
-    padding:15px;
-    border-radius:50px;
-    color:white;
-    font-weight:600;
-    text-decoration:none;
-    margin:15px 0;
-  }
+.btn-main{
+display:block;
+background:linear-gradient(135deg,#facc15,#f97316);
+text-align:center;
+padding:18px;
+border-radius:50px;
+color:black;
+font-weight:700;
+text-decoration:none;
+margin:25px 0;
+font-size:18px;
+}
 
-  .btn:hover{ opacity:0.9; }
+.btn-main:hover{opacity:0.9;}
 
-  .step{
-    display:flex;
-    margin-bottom:15px;
-  }
+.small{
+opacity:0.75;
+font-size:14px;
+margin-top:6px;
+}
 
-  .number{
-    background:linear-gradient(135deg,#a855f7,#7c3aed);
-    width:40px;
-    height:40px;
-    border-radius:50%;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    margin-right:15px;
-    font-weight:bold;
-    flex:0 0 40px;
-  }
+.review{
+display:flex;
+gap:12px;
+margin:12px 0;
+align-items:center;
+}
 
-  .small{
-    opacity:0.75;
-    font-size:14px;
-    margin:6px 0 0 0;
-  }
+.avatar{
+width:50px;
+height:50px;
+border-radius:50%;
+object-fit:cover;
+}
 
-  .review{
-    display:flex;
-    align-items:center;
-    gap:12px;
-    padding:12px 0;
-    border-bottom:1px solid rgba(17,24,39,0.15);
-  }
+.stars{
+color:#16a34a;
+font-weight:700;
+font-size:14px;
+}
 
-  .review:last-child{ border-bottom:none; }
-
-  .avatar{
-    width:50px;
-    height:50px;
-    border-radius:50%;
-    object-fit:cover;
-    flex:0 0 50px;
-  }
-
-  .stars{
-    color:#16a34a;
-    font-weight:700;
-    font-size:14px;
-  }
-
-  .review-text{
-    font-size:14px;
-    color:#374151;
-  }
-
-  .whatsapp-float{
-    position:fixed;
-    bottom:20px;
-    right:20px;
-    background:#25D366;
-    width:60px;
-    height:60px;
-    border-radius:50%;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    box-shadow:0 5px 20px rgba(0,0,0,0.3);
-  }
-
-  .whatsapp-float img{
-    width:30px;
-  }
+.footer{
+font-size:12px;
+opacity:0.6;
+margin-top:25px;
+text-align:center;
+}
 </style>
 </head>
 
@@ -135,82 +105,68 @@
 
 <div class="container">
 
-  <div class="card">
-    <h1>¡30% extra en tu primer acceso!</h1>
-    <p>Promoción de bienvenida para probar +11 plataformas con más acceso.</p>
-  </div>
+<div class="card">
+<h1>🎁 Beneficio especial del 30% en tu primer acceso</h1>
+<p>Accedé a +11 experiencias digitales disponibles con activación inmediata.</p>
+</div>
 
-  <div class="light-card">
-    <h3>Lo que dicen nuestros usuarios</h3>
+<div class="light-card">
+<h2>Comunidad activa</h2>
 
-    <div class="review">
-      <img class="avatar" src="https://randomuser.me/api/portraits/women/44.jpg" alt="María G.">
-      <div>
-        <strong>María G.</strong><br>
-        <span class="stars">★★★★★ 5.0</span>
-        <div class="review-text">Me atendieron al instante y todo funcionó perfecto.</div>
-      </div>
-    </div>
+<div class="review">
+<img class="avatar" src="https://randomuser.me/api/portraits/women/44.jpg">
+<div>
+<strong>María G.</strong><br>
+<span class="stars">★★★★★ 5.0</span>
+<div style="font-size:14px;">Atención rápida y todo muy claro.</div>
+</div>
+</div>
 
-    <div class="review">
-      <img class="avatar" src="https://randomuser.me/api/portraits/men/32.jpg" alt="Lucas R.">
-      <div>
-        <strong>Lucas R.</strong><br>
-        <span class="stars">★★★★★ 5.0</span>
-        <div class="review-text">Súper recomendable, rápido y seguro.</div>
-      </div>
-    </div>
+<div class="review">
+<img class="avatar" src="https://randomuser.me/api/portraits/men/32.jpg">
+<div>
+<strong>Lucas R.</strong><br>
+<span class="stars">★★★★★ 5.0</span>
+<div style="font-size:14px;">Excelente experiencia y soporte inmediato.</div>
+</div>
+</div>
 
-    <div class="review">
-      <img class="avatar" src="https://randomuser.me/api/portraits/women/68.jpg" alt="Carla M.">
-      <div>
-        <strong>Carla M.</strong><br>
-        <span class="stars">★★★★★ 5.0</span>
-        <div class="review-text">Muy buena experiencia, vuelvo a usarlo.</div>
-      </div>
-    </div>
-
-  </div>
-
-  <div class="card">
-    <h2>¿Cómo empezar?</h2>
-
-    <div class="step">
-      <div class="number">1</div>
-      <div>
-        <strong>Escribinos por WhatsApp</strong>
-        <p class="small">Tocá uno de los botones y hablás directo con nuestro equipo.</p>
-      </div>
-    </div>
-
-    <div class="step">
-      <div class="number">2</div>
-      <div>
-        <strong>Te asesoramos en minutos</strong>
-        <p class="small">Te explicamos cómo acceder y elegir la mejor opción.</p>
-      </div>
-    </div>
-
-    <div class="step">
-      <div class="number">3</div>
-      <div>
-        <strong>Activamos tu acceso</strong>
-        <p class="small">Te damos usuario y soporte para que empieces.</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- BOTONES DE WHATSAPP -->
-  <a class="btn" href="https://wa.me/5493794599028?text=Hola%20quiero%20activar%20mi%20usuario%20con%20DA">Hablar con DA</a>
-  <a class="btn" href="https://wa.me/5493795571018?text=Hola%20quiero%20activar%20mi%20usuario%20con%20Ganamos">Hablar con Ganamos</a>
-  <a class="btn" href="https://wa.me/5493795002972?text=Hola%20quiero%20activar%20mi%20usuario%20con%20JO">Hablar con JO</a>
+<div class="review">
+<img class="avatar" src="https://randomuser.me/api/portraits/women/68.jpg">
+<div>
+<strong>Carla M.</strong><br>
+<span class="stars">★★★★★ 5.0</span>
+<div style="font-size:14px;">Muy recomendable, proceso sencillo.</div>
+</div>
+</div>
 
 </div>
 
-<!-- BOTÓN FLOTANTE (usa el número DA, podés cambiarlo si querés) -->
-<a href="https://wa.me/5493794599028" class="whatsapp-float" aria-label="WhatsApp">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+<div class="card">
+<h2>¿Cómo empezar?</h2>
+<p class="small">1️⃣ Escribinos por WhatsApp</p>
+<p class="small">2️⃣ Recibí asesoramiento personalizado</p>
+<p class="small">3️⃣ Activá tu acceso en minutos</p>
+</div>
+
+<!-- BOTONES SECUNDARIOS -->
+
+<a class="btn" href="https://wa.me/5493794599028?text=Hola%20quiero%20activar%20mi%20acceso%20con%20DA">Hablar con DA</a>
+<a class="btn" href="https://wa.me/5493795571018?text=Hola%20quiero%20activar%20mi%20acceso%20con%20Ganamos">Hablar con Ganamos</a>
+<a class="btn" href="https://wa.me/5493795002972?text=Hola%20quiero%20activar%20mi%20acceso%20con%20JO">Hablar con JO</a>
+
+<!-- BOTÓN PRINCIPAL FUERTE -->
+
+<a class="btn-main" href="https://wa.me/5493794599028?text=Hola%20quiero%20activar%20mi%2030%25%20ahora">
+🚀 ACTIVAR MI 30% AHORA
 </a>
+
+<div class="footer">
++18 | Uso responsable<br>
+Servicio digital privado con atención personalizada.
+</div>
+
+</div>
 
 </body>
 </html>
