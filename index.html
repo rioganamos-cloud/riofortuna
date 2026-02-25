@@ -4,9 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Plataforma de Confianza</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-<style>
 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
 body{
 margin:0;
 font-family:'Poppins', sans-serif;
@@ -40,6 +41,10 @@ font-size:26px;
 margin:0 0 10px 0;
 }
 
+h2{
+margin-top:0;
+}
+
 .btn{
 display:block;
 background:#22c55e;
@@ -49,7 +54,11 @@ border-radius:50px;
 color:white;
 font-weight:600;
 text-decoration:none;
-margin:20px 0;
+margin:15px 0;
+}
+
+.btn:hover{
+opacity:0.9;
 }
 
 .step{
@@ -74,6 +83,11 @@ color:#22c55e;
 font-size:20px;
 }
 
+.small{
+opacity:0.7;
+font-size:14px;
+}
+
 .whatsapp-float{
 position:fixed;
 bottom:20px;
@@ -91,14 +105,9 @@ box-shadow:0 5px 20px rgba(0,0,0,0.3);
 .whatsapp-float img{
 width:30px;
 }
-
-.small{
-opacity:0.7;
-font-size:14px;
-}
-
 </style>
 </head>
+
 <body>
 
 <div class="container">
@@ -123,7 +132,7 @@ Personas utilizando el servicio todos los días.</p>
 <div class="number">1</div>
 <div>
 <strong>Escribinos por WhatsApp</strong>
-<p class="small">Tocá el botón y hablás directo con nuestro equipo.</p>
+<p class="small">Tocá uno de los botones y hablás directo con nuestro equipo.</p>
 </div>
 </div>
 
@@ -145,9 +154,25 @@ Personas utilizando el servicio todos los días.</p>
 
 </div>
 
+<!-- BOTONES DE WHATSAPP -->
+
+<a class="btn" href="https://wa.me/5493794599028?text=Hola%20quiero%20activar%20mi%20usuario%20con%20DA">
+Hablar con DA
+</a>
+
+<a class="btn" href="https://wa.me/5493795571018?text=Hola%20quiero%20activar%20mi%20usuario%20con%20Ganamos">
+Hablar con Ganamos
+</a>
+
+<a class="btn" href="https://wa.me/5493795002972?text=Hola%20quiero%20activar%20mi%20usuario%20con%20JO">
+Hablar con JO
+</a>
+
 </div>
 
-<a href="https://wa.me/549379XXXXXXX" class="whatsapp-float">
+<!-- BOTÓN FLOTANTE -->
+
+<a href="https://wa.me/5493794599028" class="whatsapp-float">
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg">
 </a>
 
